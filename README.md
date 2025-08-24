@@ -59,4 +59,28 @@ uvicorn main:app --reload
 cd frontend
 npm install
 npm start
+```
+
+## ▶️ Usage
+
+1. Open the app in your browser (`http://localhost:3000`).  
+2. Drag & drop components onto the canvas.  
+3. Connect them to define your workflow.  
+4. Click **Build Stack** to validate.  
+5. Use **Chat with Stack** to interact with your workflow.  
+
+---
+
+## 📊 Deliverables
+
+- ✅ Full source code (frontend + backend)  
+- ✅ README with setup and run instructions  
+- ✅ Modular component structure  
+- ✅ (Optional) Architecture diagram / video demo  
+
+---
+
+## 📝 License
+
+This project is for educational and assignment purposes.  
 
