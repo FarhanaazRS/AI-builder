@@ -39,21 +39,46 @@ A **No-Code/Low-Code Intelligent Workflow Builder** that enables users to visual
 
 ---
 
-## 📂 Project Structure
-AI-builder/
-│── backend/ # FastAPI backend
-│ ├── api/ # API endpoints
-│ ├── models/ # Database models
-│ ├── services/ # LLM, embeddings, search integrations
-│ ├── main.py # FastAPI entry point
-│ └── requirements.txt # Backend dependencies
-│
-│── frontend/ # React.js frontend
-│ ├── components/ # UI components (React Flow, chat, config panel)
-│ ├── pages/ # Main pages
-│ ├── App.js # Root React component
-│ └── package.json # Frontend dependencies
-│
-│── database/ # PostgreSQL schemas / migrations
-│── docs/ # Documentation (optional)
-│── README.md # Project readme
+## ⚙️ Setup & Installation
+
+### 🔑 Prerequisites
+- Python **>= 3.9**
+- Node.js **>= 16**
+- PostgreSQL installed and running
+- Git
+
+### 1️⃣ Clone the repo
+```bash
+git clone https://github.com/FarhanaazRS/AI-builder.git
+cd AI-builder
+
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
+
+cd frontend
+npm install
+npm start
+
+## ▶️ Usage
+
+1. Open the app in your browser (`http://localhost:3000`).  
+2. Drag & drop components onto the canvas.  
+3. Connect them to define your workflow.  
+4. Click **Build Stack** to validate.  
+5. Use **Chat with Stack** to interact with your workflow.  
+
+---
+
+## 📊 Deliverables
+
+- ✅ Full source code (frontend + backend)  
+- ✅ README with setup and run instructions  
+- ✅ Modular component structure  
+- ✅ (Optional) Architecture diagram / video demo  
+
+---
+
+## 📝 License
+
+This project is for educational and assignment purposes.  
