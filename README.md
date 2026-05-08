@@ -29,10 +29,10 @@ Create specialized AI assistants for:
 
 # 📸 Screenshots
 
-> Add your screenshots here
+<img width="1920" height="830" alt="image" src="https://github.com/user-attachments/assets/39502b30-d771-4876-af16-082df761c6f0" />
+
 
 ```md
-![Workflow Builder](./screenshots/workflow.png)
 ```
 
 ---
